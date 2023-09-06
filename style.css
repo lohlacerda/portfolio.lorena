@@ -35,7 +35,7 @@ body {
 
 /* Define a cor do texto para elementos com a classe .titulo-destaque como d38b06 (laranja) */
 .titulo-destaque {
-    color: #d38b06;
+    color: #94928d;
 }
 
 /* Estilos para elementos com a classe .conteudo */
@@ -129,6 +129,13 @@ body {
 
     /* Define o espaçamento entre os elementos filhos como 20px */
     gap: 20px;
+}
+
+.apresentacao-links-conteudo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
 }
 
 /* Estilos para elementos com a classe .botao1 */
@@ -265,7 +272,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, transparent, #0077B5);
+    background: linear-gradient(45deg, transparent, #0c0d0e);
     transition: 0.5s;
 }
 
@@ -435,10 +442,10 @@ body {
     max-width: 100%;
 
     /* Define a largura do elemento como 650px */
-    width: 650px;
+    width: 500px;
 
     /* Define a altura do elemento como 650px */
-    height: 650px;
+    height: 500px;
 
     /* Alinha o conteúdo ao centro horizontalmente */
     text-align: center;
@@ -495,7 +502,7 @@ body {
     height: 10px;
 
     /* Adiciona uma borda de 2px sólida laranja aos pseudo-elementos */
-    border: 2px solid #ff5500;
+    border: 2px solid #faf1ec;
 
     /* Define o fundo dos pseudo-elementos como transparente */
     background-color: transparent;
@@ -533,3 +540,19 @@ body {
     transform: scale(1.1);
 }
 
+.rodape{
+    color: rgb(10, 9, 9);
+    background-color: #fcf7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.rodape a:hover {
+    color: #0f0f09;
+}
