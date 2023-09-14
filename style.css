@@ -32,6 +32,23 @@ body {
     color: white;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-menu-links{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
 
 /* Define a cor do texto para elementos com a classe .titulo-destaque como d38b06 (laranja) */
 .titulo-destaque {
